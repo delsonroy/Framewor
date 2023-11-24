@@ -9,8 +9,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class browserFactory {
 
 	
-	
-	public static WebDriver startApplication(WebDriver driver, String browser, String url)
+	static WebDriver driver;
+	public static WebDriver startApplication( String browser, String url)
 	{
 		
 	   if(browser.equals("chrome"))
@@ -41,10 +41,10 @@ public class browserFactory {
 	}
 	
 	
-	public static void teardown(WebDriver driver)
-	{
-		
-		driver.close();
-	}
+//	public static void teardown(WebDriver driver)
+//	{
+//		
+//		driver.close();
+//	}
 	
 }

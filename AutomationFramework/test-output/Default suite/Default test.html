@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 23 06:52:19 EST 2023</td>
+<td>Started on:</td><td>Fri Nov 24 07:33:27 EST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3613 ms)</td>
+<tr><td>Total time:</td><td>3 seconds (3996 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,8 +76,9 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.automation.testcases.LoginTestCRM.loginAPP()'><b>loginAPP</b><br>Test class: com.automation.testcases.LoginTestCRM</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
-	at com.automation.testcases.LoginTestCRM.loginAPP(LoginTestCRM.java:15)
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;driver&quot; is null
+	at com.automation.utilities.browserFactory.teardown(browserFactory.java:47)
+	at com.automation.testcases.LoginTestCRM.loginAPP(LoginTestCRM.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,8 +108,9 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1412656257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1412656257'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getTitle()&quot; because &quot;this.driver&quot; is null
-	at com.automation.testcases.LoginTestCRM.loginAPP(LoginTestCRM.java:15)
+<div class='stack-trace' id='stack-trace1412656257'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;driver&quot; is null
+	at com.automation.utilities.browserFactory.teardown(browserFactory.java:47)
+	at com.automation.testcases.LoginTestCRM.loginAPP(LoginTestCRM.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

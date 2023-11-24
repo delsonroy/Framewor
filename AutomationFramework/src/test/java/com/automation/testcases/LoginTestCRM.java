@@ -11,9 +11,9 @@ public class LoginTestCRM {
 	public void loginAPP()
 	{
 	
-		browserFactory.startApplication(driver, "chrome", "https://www.google.com");
-		System.out.println(driver.getTitle());
-		browserFactory.teardown(driver);
+		browserFactory.startApplication("chrome", "https://www.google.com");
+		//System.out.println(driver.getTitle());
+		//browserFactory.teardown(driver);
 		
 	}
 }

@@ -2,19 +2,20 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-23T06:52:19 GMT-05:00" name="Default suite" finished-at="2023-11-23T06:52:23 GMT-05:00" duration-ms="3613">
+  <suite started-at="2023-11-24T07:33:27 GMT-05:00" name="Default suite" finished-at="2023-11-24T07:33:31 GMT-05:00" duration-ms="3996">
     <groups>
     </groups>
-    <test started-at="2023-11-23T06:52:19 GMT-05:00" name="Default test" finished-at="2023-11-23T06:52:23 GMT-05:00" duration-ms="3613">
+    <test started-at="2023-11-24T07:33:27 GMT-05:00" name="Default test" finished-at="2023-11-24T07:33:31 GMT-05:00" duration-ms="3996">
       <class name="com.automation.testcases.LoginTestCRM">
-        <test-method signature="loginAPP()[pri:0, instance:com.automation.testcases.LoginTestCRM@156b88f5]" started-at="2023-11-23T06:52:19 GMT-05:00" name="loginAPP" finished-at="2023-11-23T06:52:23 GMT-05:00" duration-ms="3581" status="FAIL">
+        <test-method signature="loginAPP()[pri:0, instance:com.automation.testcases.LoginTestCRM@156b88f5]" started-at="2023-11-24T07:33:27 GMT-05:00" name="loginAPP" finished-at="2023-11-24T07:33:31 GMT-05:00" duration-ms="3957" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.close()" because "driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
-at com.automation.testcases.LoginTestCRM.loginAPP(LoginTestCRM.java:15)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "driver" is null
+at com.automation.utilities.browserFactory.teardown(browserFactory.java:47)
+at com.automation.testcases.LoginTestCRM.loginAPP(LoginTestCRM.java:16)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
